@@ -1,21 +1,20 @@
-# PROJECT 1: ANSIBLE CONFIGURATION TASKS.
+# PROJECT 1: PROVISIONING A SECURE AND SCALABLE SERVER ON AWS EC2
 ## To execute this project:
-1.	I open Post man
+1.	Launch a new EC2 instance using Ubuntu Server AMI
+
+![img](img/Launch%20EC2%20Instance.png)
+![img](img/Launch%20EC2%20Instance%202.png)
 
 
+2.	Update Package Index by runnig the command: 
+    sudo apt update
 
-![img](img/home.PNG)
+![img](img/Update%20Package%20Index.png)
 
+3.  Install Apache2 by running the command:
+    sudo apt install apache2 -y
 
-
-2.	Ssh to the ansible instance terminal and generate key pair using the command ```ssh-keygen``` to get the key pair and press on enter key till it gets off `from the key enviroment .
-
-
-
-![img](img/img1a.png)
-
-
-![img](img/img2.png)
+![img](img/)
 
 
 ![img](img/img3.png)
