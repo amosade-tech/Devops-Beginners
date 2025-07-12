@@ -47,10 +47,12 @@ curl ifconfig.me
 ![img](img/Ubuntu%20Default%20Page.png)
 
 
-12. Create an html file and css file to create a basic static website
+12. Create an html file and css file to create a basic static website and deploy the website to /var/www/html on your EC2 instance
 
-![img](img/html%20code.png))
+![img](img/html%20code.png)
 ![img](img/css%20code.png)
 
+13. Open a browser and go to http://3.86.212.252 to the static website
+![img](img/Revamped%20Site.png)
 
 
